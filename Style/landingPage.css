@@ -1,0 +1,41 @@
+*{
+padding: 0;
+margin: 0 auto;
+color: black;
+list-style: none;
+font-family: Segoe UI;
+}
+
+body{
+   background:#e3dcdc;
+}
+
+main{
+margin-top:20px;
+background: white;
+width: 80vw;
+height: 2020px;
+border:1px solid black;
+}
+
+.non_decorate{
+text-decoration: none;
+margin-left:20px;
+}
+
+.tommy_text{
+margin-left:133px;
+margin-top:29px;
+
+}
+
+.menu{
+    margin-left:281px;
+    margin-top: -22px;
+
+}
+
+span{
+    color:#ebb22f
+    ;
+}
