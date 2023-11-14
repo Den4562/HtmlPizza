@@ -1,13 +1,17 @@
 *{
 padding: 0;
 margin: 0 auto;
-color: black;
+color: #667085;
 list-style: none;
 font-family: Segoe UI;
 }
 
 body{
-   background:#e3dcdc;
+   background:#665f5f88;
+}
+
+h2{
+    color: #3C3C3C;
 }
 
 main{
@@ -98,4 +102,168 @@ line-height: 32px;
 
 .shape_place{
     margin-left:400px;
+   
+}
+
+.btn_place{
+    margin-top: 27px;
+  
+}
+
+.btn{
+font-family: Inter;
+display: inline-flex;
+border-radius: 20px;
+font-size: 17px;
+font-style: normal;
+color: #FFF;
+font-family: Inter;
+font-size: 19px;
+width: 100px;
+height: 40px;
+padding: 0px 9.5px;
+justify-content: center;
+align-items: center;
+gap: 9.5px;
+background: #FFC12F;
+}
+
+.inf_text{
+    margin-left: 200px;
+    margin-top: -30px;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    
+}
+
+.img_pointer{
+    text-align: left;
+    margin-top: -22px;
+    margin-left:160px;
+}
+
+section h2{
+    font-family: Segoe UI;
+font-size: 36px;
+font-style: normal;
+}
+
+.sect_func{
+
+    margin-top:282px;
+    margin-left: 471px;
+    position: relative;
+}
+
+.sect_text{
+color: #667085;
+margin-left: -650px;
+margin-top: 30px;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+
+}
+
+.book_icon{
+    margin-left: 23px;
+    margin-top: 28px;
+    position: absolute;
+}
+
+.truck_icon{
+    
+    margin-left: 13px;
+    margin-top: 28px;
+    position: absolute;
+   
+}
+
+.payment_icon{
+    
+    margin-left: 25px;
+    margin-top: 25px;
+    position: absolute;
+   
+}
+
+.order{
+    position: absolute;
+    margin-top:0px;
+    width: 88px;
+
+}
+
+.payment{
+    position: absolute;
+    width: 88px;
+
+}
+
+.delivery{
+    position: absolute;
+    width: 88px;
+
+}
+
+.delivery_now{
+    position: relative; /* Устанавливаем позиционирование контейнера */
+    margin-top:-60px;
+    margin-left: 65px;
+}
+
+.order_now{
+    position: relative; /* Устанавливаем позиционирование контейнера */
+    margin-top:150px;
+    margin-left: -350px;
+}
+
+
+
+.payment_now{
+    position: relative; /* Устанавливаем позиционирование контейнера */
+    margin-top:-96px;
+    margin-left: 450px;
+}
+
+
+
+.p_text {
+    color: #3C3C3C;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+position: absolute;
+text-align: left; /* Центрирование текста по горизонтали */
+margin-top: 129px;
+text-align: left;
+margin-left: -5px;
+  }
+
+.order_text{
+    margin-top: 180px;
+    margin-left: -89px;
+    position: absolute;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.vector1{
+    margin-left:-195px;
+    margin-top: 50px;
+}
+
+.vector2{
+    margin-top: 10px;
+    margin-left: 195px;
 }
