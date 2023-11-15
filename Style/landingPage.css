@@ -18,7 +18,7 @@ main{
 margin-top:20px;
 background: white;
 width: 80vw;
-height: 2020px;
+height: 2820px;
 
 padding-left: 120px;
 padding-top: 29px;
@@ -243,8 +243,33 @@ position: absolute;
 text-align: left; /* Центрирование текста по горизонтали */
 margin-top: 129px;
 text-align: left;
-margin-left: -5px;
+margin-left: -10px;
   }
+
+  .p2_text {
+    color: #3C3C3C;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+position: absolute;
+text-align: left; /* Центрирование текста по горизонтали */
+margin-top: 129px;
+text-align: left;
+margin-left: 5px;
+  }
+
+  .p3_text{
+    margin-left: -160px;
+    margin-top:10px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    }
 
 .order_text{
     margin-top: 180px;
@@ -267,3 +292,95 @@ margin-left: -5px;
     margin-top: 10px;
     margin-left: 195px;
 }
+
+.h_text{
+    margin-left: 425px;
+    margin-top: 400px;
+}
+
+
+.pizza_choice {
+    display: flex;
+    margin-top: 60px;
+    margin-right: 210px;
+}
+
+.pizza_choice div {
+    margin-left: 100px; /* Отступ между изображениями */
+}
+
+.pizza_choice h3{
+color: #3C3C3C;
+font-family: Segoe UI;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 22.363px;
+margin-left: -40px;
+margin-top: 20px;
+}
+
+.pizza_choice p{
+    color: #667085;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+margin-left:-40px;
+margin-top: 10px;
+}
+
+
+
+.stars{
+    position: absolute;
+    margin-left: -195px;
+    margin-top: 150px;
+}
+
+.icons{
+    margin-top:-25px;
+   
+}
+
+.navigator
+{
+    margin-top: 80px;
+    margin-left:435px;
+    position: relative;
+}
+
+.round_button {
+    display: inline-block;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px; /* Выравниваем текст по вертикали внутри кнопки */
+    border-radius: 50%;
+    border: none;
+    color: #667085;
+    font-family: Inter;
+    font-size: 20px;
+    text-align: center; /* Центрируем текст горизонтально */
+    text-decoration: none; /* Убираем стандартное подчеркивание ссылки */
+    box-shadow: #3C3C3C;
+    
+}
+
+.btn_nav{
+    background-color: #FEB918;
+    color:white
+}
+
+  .arrow_left {
+    position: absolute;
+    margin-left: -40px;
+    
+  }
+
+  .arrow_right{
+    position: absolute;
+    margin-left: 20px;
+  }
+
