@@ -1,21 +1,23 @@
 *{
 padding: 0;
 margin: 0 auto;
-color: black;
 list-style: none;
 font-family: Segoe UI;
 }
 
 body{
-   background:#e3dcdc;
+   background:#665f5f88;
+}
+
+h2{
+    color: #3C3C3C;
 }
 
 main{
 margin-top:20px;
 background: white;
 width: 80vw;
-height: 2020px;
-
+height: 4800px;
 padding-left: 120px;
 padding-top: 29px;
 }
@@ -28,6 +30,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+color: #667085;
 }
 
 .text{
@@ -47,6 +50,9 @@ span{
     font-family: Inter;
     font-style: normal;
 }
+
+
+
 header,a{
     text-decoration-color:#ebb22f;
     text-decoration-thickness: 3px;
@@ -62,7 +68,7 @@ margin-top:-93px;
 font-family: Inter;
 font-size: 16.625px;
 font-style: normal;
-color: #ebb22f;
+color: #dba321;
 margin-top:133px;
 display: inline-flex;
 height: 30px;
@@ -98,4 +104,538 @@ line-height: 32px;
 
 .shape_place{
     margin-left:400px;
+   
+}
+
+.btn_place{
+    margin-top: 27px;
+  
+}
+
+.btn{
+font-family: Inter;
+display: inline-flex;
+border-radius: 20px;
+font-size: 17px;
+font-style: normal;
+color: #FFF;
+font-family: Inter;
+font-size: 19px;
+width: 100px;
+height: 40px;
+padding: 0px 9.5px;
+justify-content: center;
+align-items: center;
+gap: 9.5px;
+background: #FFC12F;
+}
+
+.inf_text{
+    margin-left: 200px;
+    margin-top: -30px;
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    
+}
+
+.img_pointer{
+    text-align: left;
+    margin-top: -22px;
+    margin-left:160px;
+}
+
+section h2{
+    font-family: Segoe UI;
+font-size: 36px;
+font-style: normal;
+}
+
+.sect_func{
+
+    margin-top:282px;
+    margin-left: 471px;
+    position: relative;
+}
+
+.sect_text{
+color: #667085;
+margin-left: -620px;
+margin-top: 30px;
+text-align: center;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 27px;
+
+}
+
+.book_icon{
+    margin-left: 23px;
+    margin-top: 28px;
+    position: absolute;
+}
+
+.truck_icon{
+    
+    margin-left: 13px;
+    margin-top: 28px;
+    position: absolute;
+   
+}
+
+.payment_icon{
+    
+    margin-left: 25px;
+    margin-top: 25px;
+    position: absolute;
+   
+}
+
+.order{
+    position: absolute;
+    margin-top:0px;
+    width: 88px;
+
+}
+
+.payment{
+    position: absolute;
+    width: 88px;
+
+}
+
+.delivery{
+    position: absolute;
+    width: 88px;
+
+}
+
+.delivery_now{
+    position: relative; /* Устанавливаем позиционирование контейнера */
+    margin-top:-60px;
+    margin-left: 65px;
+}
+
+.order_now{
+    position: relative; /* Устанавливаем позиционирование контейнера */
+    margin-top:150px;
+    margin-left: -350px;
+}
+
+
+
+.payment_now{
+    position: relative; /* Устанавливаем позиционирование контейнера */
+    margin-top:-96px;
+    margin-left: 450px;
+}
+
+
+
+.p_text {
+    color: #3C3C3C;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+position: absolute;
+text-align: left; /* Центрирование текста по горизонтали */
+margin-top: 129px;
+text-align: left;
+margin-left: -10px;
+  }
+
+  .p2_text {
+    color: #3C3C3C;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+position: absolute;
+text-align: left; /* Центрирование текста по горизонтали */
+margin-top: 129px;
+text-align: left;
+margin-left: 5px;
+  }
+
+  .p3_text{
+    color: #667085;
+    margin-left: -160px;
+    margin-top:10px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    }
+
+.order_text{
+    margin-top: 180px;
+    margin-left: -89px;
+    position: absolute;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.vector1{
+    margin-left:-195px;
+    margin-top: 50px;
+}
+
+.vector2{
+    margin-top: 10px;
+    margin-left: 195px;
+}
+
+.h_text{
+    margin-left: 425px;
+    margin-top: 400px;
+}
+
+
+.pizza_choice {
+    display: flex;
+    margin-top: 60px;
+    margin-right: 210px;
+}
+
+.pizza_choice div {
+    margin-left: 100px; /* Отступ между изображениями */
+}
+
+.pizza_choice h3{
+color: #3C3C3C;
+font-family: Segoe UI;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 22.363px;
+margin-left: -40px;
+margin-top: 20px;
+}
+
+.pizza_choice p{
+    color: #667085;
+font-family: Inter;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+margin-left:-40px;
+margin-top: 10px;
+}
+
+
+
+.stars{
+    position: absolute;
+    margin-left: -195px;
+    margin-top: 150px;
+}
+
+.icons{
+    margin-top:-25px;
+   
+}
+
+.navigator
+{
+    margin-top: 80px;
+    margin-left:435px;
+    position: relative;
+}
+
+.round_button {
+    display: inline-block;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px; /* Выравниваем текст по вертикали внутри кнопки */
+    border-radius: 50%;
+    border: none;
+    color: #667085;
+    font-family: Inter;
+    font-size: 20px;
+    text-align: center; /* Центрируем текст горизонтально */
+    text-decoration: none; /* Убираем стандартное подчеркивание ссылки */
+    box-shadow: #3C3C3C;
+    
+}
+
+.btn_nav{
+    background-color: #FEB918;
+    color:white
+}
+
+  .arrow_left {
+    position: absolute;
+    margin-left: -40px;
+    
+  }
+
+  .arrow_right{
+    position: absolute;
+    margin-left: 20px;
+  }
+
+
+  .order_section {
+    margin-top: 115px;
+    position: relative;
+  }
+  
+  .order_section .btn_delivery {
+    position: absolute;
+    
+    margin-top: -50px;
+  }
+
+  .order_section .btn{
+    margin-top:40px;
+    border-radius: 5px;
+  }
+
+  .text_order{
+    margin-left:600px;
+    margin-top:-600px;
+  }
+
+  .text_order p{
+    color: #667085;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top:20px
+  }
+
+  .mobile_section{
+    margin-top: 260px;
+    margin-left: 550px;
+    position: relative;
+}
+
+.text_mobile{
+margin-left: -600px;
+margin-top:-400px;
+}
+
+.text_mobile p{
+    margin-top: 20px;
+    color: #667085;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.google_apple{
+    margin-top:45px;
+    
+}
+
+.google_apple img {
+    margin-right: 20px; /* Например, задаем отступ между изображениями */
+  }
+
+  .link{
+    position: relative;
+    width: 65vw;
+    margin-top: 200px;
+    margin-left: 80px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 0px -4px 50px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    z-index: 2;
+  }
+
+  .place_icons{
+margin-left:450px;
+
+  }
+
+  .icon_email{
+    position: absolute;
+    margin-left: -380px;
+    width: 80px;
+    height: 80px;
+    margin-top: 65px;
+    
+  }
+
+  .icon_call{
+    width: 80px;
+    height: 80px;
+    margin-left: 180px;
+    margin-top: 65px;
+  }
+
+  .email_text{
+    color:#232233;
+    font-size:28px;
+    font-style:normal;
+    font-weight:600;
+    line-height:37.5px; 
+    text-transform: lowercase;
+    margin-left:-270px;
+    margin-top: -60px;
+  }
+
+  .call_text{
+    margin-left: 278px;
+    margin-top: -40px;
+    color:#232233;
+    font-size:28px;
+    font-style:normal;
+    font-weight:600;
+    line-height:37.5px; 
+    font-family: Inter;
+    text-transform: lowercase;
+  }
+
+.reference{
+    width: 83.7vw;
+    padding-left: 60px;
+    color:white;
+    margin-top: -80px;
+    margin-left: -120px;
+    height: 542px;
+    flex-shrink: 0;
+    background:  #232233;
+    position: relative;
+    z-index: 1;
+  }
+
+  .line{
+    margin-top: -80px;
+    margin-left:80px;
+  }
+
+.reference_text{
+    position: absolute;
+    margin-top:211px;
+    margin-left: 140px;
+}
+
+.reference_text p{
+    margin-top:20px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.reference_icons{
+    margin-top:375px;
+    position: absolute;
+    margin-left: 105px;
+
+}
+
+.reference_icons img{
+  margin-left: 30px;
+}
+
+
+.lines{
+    margin-left: 75px;
+    margin-top: -28px;
+    height:25px; 
+    position: absolute;
+    border-left:1px solid #fff; 
+   
+}
+
+
+.instagram{
+    margin-top: -28px;
+    margin-left: 70px;
+}
+
+.youtube{
+    margin-top: -28px;
+    margin-left: 210px;
+}
+
+.twitter{
+    margin-top: -28px;
+    margin-left: 140px;
+}
+
+.quick_link{
+     position: absolute;
+     margin-top: 200px;
+    margin-left:580px;
+}
+
+.quick_link li{
+margin-top:16px
+}
+
+.news{
+    position: absolute;
+    margin-top: 200px;
+    margin-left:850px ;
+}
+
+.news li{
+    margin-top:16px;
+}
+
+.email_field{
+padding: 10px;
+height: 28px;
+width: 330px;
+margin-top:20px;
+
+}
+
+.enter{
+    position: absolute;
+    margin-top: 23px;
+    margin-left: -56px;  
+}
+
+.send{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: -40px;
+    }
+
+.line_hr{
+    position: absolute;
+    width: 1065px;
+    margin-top: 450px;
+    margin-left: 140px;
+    
+    }
+
+.copyright_text{
+    margin-top:480px;
+    position: absolute;
+    margin-left: 560px;
+}
+
+.copyright{
+    position: absolute;
+    margin-left: -40px;
+    margin-top:0px;
+}
+
+.quick_link a{
+    text-decoration: none;
+    color: #FFF;
 }
