@@ -14,12 +14,12 @@ h2{
 }
 
 main {
-    margin-top: 5vh; /* Пример использования относительной высоты */
+    margin-top: 5vh; 
     background: white;
     width: 80vw;
-    height: 530vh; /* Пример использования относительной высоты */
-    padding-left: 5vw; /* Пример использования относительной ширины */
-    padding-top: 2vh; /* Пример использования относительной высоты */
+    height: 530vh; 
+    padding-left: 5vw; 
+    padding-top: 2vh; 
   }
 
 .non_decorate{
@@ -35,8 +35,8 @@ color: #667085;
 
 
   .menu {
-    margin-left: 40%; /* Используем проценты вместо пикселей */
-    margin-top: -2vh; /* Используем проценты вместо пикселей */
+    margin-left: 32vw; 
+    margin-top: -2vh; 
   }
   
   span {
@@ -47,50 +47,52 @@ color: #667085;
   
   header, a {
     text-decoration-color: #ebb22f;
-    text-decoration-thickness: 0.3em; /* Используем относительные единицы */
+    text-decoration-thickness: 0.3em; 
   }
   
   .image_pizza {
-    margin-left: 37%; /* Используем проценты вместо пикселей */
-    margin-top: 10vh; /* Используем проценты вместо пикселей */
+    margin-left: 29.6vw; 
+    margin-top: 10vh; 
   }
 
   .btn_delivery {
     font-family: Inter;
-    font-size: 1vw; /* Используем относительные единицы для размера шрифта */
+    font-size: 1vw; 
     position: absolute;
     font-style: normal;
     color: #dba321;
-    margin-top: 16vh; /* Используем относительные единицы для отступа сверху */
+    margin-top: 16vh; 
     display: inline-flex;
-    height: 3vh; /* Используем относительные единицы для высоты */
-    padding: 0 1vw; /* Используем относительные единицы для отступов */
+    height: 3vh; 
+    padding: 0 1vw; 
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1vw; /* Используем относительные единицы для отступов между элементами */
+    gap: 1vw; 
     background: #FFF2D4;
   }
 
   .tag_line {
     color: #3C3C3C;
     font-family: Segoe UI;
-    font-size: 2.9vw; /* Используем относительные единицы для размера шрифта */
+    font-size: 2.9vw; 
     font-style: normal;
     font-weight: 700;
   }
   
   .tag_line_place {
-    margin-top: -48vh; /* Используем относительные единицы для отступа сверху */
+    margin-top: -48vh; 
   }
 
-.description{
-color: #667085;
-font-family: Inter;
-font-size:17.8px;
-font-style: normal;
-line-height: 32px;
+.description {
+  color: #667085;
+  font-family: Inter;
+  font-size: 1vw; 
+  font-style: normal;
+  line-height: 24px; 
+  margin-left: 0.2vw;
 }
+
 
 .shape_place{
     margin-left:400px;
@@ -143,15 +145,15 @@ font-style: normal;
 
 .sect_func{
 
-    margin-top:282px;
-    margin-left: 471px;
+    margin-top:35vh;
+    margin-left: 30vw;
     position: relative;
 }
 
 .sect_text{
 color: #667085;
-margin-left: -620px;
-margin-top: 30px;
+margin-left: -36vw;
+margin-top: 3vh;
 text-align: center;
 font-family: Inter;
 font-size: 14px;
@@ -162,30 +164,30 @@ line-height: 27px;
 }
 
 .book_icon{
-    margin-left: 23px;
-    margin-top: 28px;
+    margin-left: 1.3vw;
+    margin-top: 3vh;
     position: absolute;
 }
 
 .truck_icon{
     
-    margin-left: 13px;
-    margin-top: 28px;
+    margin-left: 0.9vw;
+    margin-top: 3vh;
     position: absolute;
    
 }
 
 .payment_icon{
     
-    margin-left: 25px;
-    margin-top: 25px;
+    margin-left: 1.5vw;
+    margin-top: 2.5vh;
     position: absolute;
    
 }
 
 .order{
     position: absolute;
-    margin-top:0px;
+   
     width: 88px;
 
 }
@@ -205,7 +207,7 @@ line-height: 27px;
 .delivery_now{
     position: relative; /* Устанавливаем позиционирование контейнера */
     margin-top:-60px;
-    margin-left: 65px;
+    margin-left: 8vh;
 }
 
 .order_now{
@@ -254,7 +256,7 @@ margin-left: 5px;
 
   .p3_text{
     color: #667085;
-    margin-left: -160px;
+    margin-left: -5.5vw;
     margin-top:10px;
     text-align: center;
     font-family: Inter;
@@ -287,7 +289,7 @@ margin-left: 5px;
 }
 
 .h_text{
-    margin-left: 425px;
+    margin-left: 50vh;
     margin-top: 400px;
 }
 
@@ -309,8 +311,8 @@ font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 22.363px;
-margin-left: -40px;
-margin-top: 20px;
+margin-left: -2.6vw;
+margin-top: 2vh;
 }
 
 .pizza_choice p{
@@ -329,7 +331,7 @@ margin-top: 10px;
 .stars{
     position: absolute;
     margin-left: -195px;
-    margin-top: 150px;
+    margin-top: 17vh;
 }
 
 .icons{
@@ -495,15 +497,15 @@ margin-left:450px;
     text-transform: lowercase;
   }
 
-.reference{
-    width: 83.7vw;
-    padding-left: 60px;
-    color:white;
-    margin-top: -80px;
-    margin-left: -120px;
-    height: 542px;
+  .reference {
+    width: 84vw; /* Используем относительные единицы для ширины */
+    padding-left: 1vw; /* Используем относительные единицы для отступа слева */
+    color: white;
+    margin-top: -8vh; /* Используем относительные единицы для отступа сверху */
+    margin-left: -5vw; /* Используем относительные единицы для отступа слева */
+    height: 60vh; /* Используем относительные единицы для высоты */
     flex-shrink: 0;
-    background:  #232233;
+    background: #232233;
     position: relative;
     z-index: 1;
   }
