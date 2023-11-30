@@ -17,11 +17,13 @@
   margin-top:20px;
   background: white;
   width: 80vw;
-  height: 4800px;
+  height: 4600px;
   padding-left: 120px;
   padding-top: 29px;
   }
   
+
+
   .non_decorate{
   text-decoration: none;
   margin-left:80px;
@@ -60,8 +62,11 @@
   }
   
   .image_pizza{
-  margin-left:518px;
+  margin-left:487px;
   margin-top:-93px;
+  width: 63%;
+  position: relative;
+  height: auto;
   }
   
   .btn_delivery{
@@ -88,6 +93,8 @@
   font-weight: 700;
     
   }
+
+
   
   .tag_line_place{
       
@@ -152,15 +159,12 @@
   }
   
   .sect_func{
-  
-      margin-top:282px;
-      margin-left: 471px;
+      margin-left: 500px;
       position: relative;
   }
   
   .sect_text{
   color: #667085;
-  margin-left: -620px;
   margin-top: 30px;
   text-align: center;
   font-family: Inter;
@@ -170,6 +174,19 @@
   line-height: 27px;
   
   }
+.cont_work{
+    margin-left: -80px;
+    margin-top: 120px;
+}
+  .h2_text{
+    color: #3C3C3C;
+    font-family: Segoe UI;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+  }
   
   .book_icon{
       margin-left: 23px;
@@ -177,7 +194,7 @@
       position: absolute;
   }
   
-  .truck_icon{
+  .delivery_icon{
       
       margin-left: 13px;
       margin-top: 28px;
@@ -217,6 +234,21 @@
       margin-top:-60px;
       margin-left: 65px;
   }
+
+  .delivery_cont{
+    position: relative;
+    margin-left:5px
+  }
+
+  .payment_cont{
+    position: relative;
+
+  }
+
+  .order_cont{
+    position: relative;
+    margin-left:5px
+  }
   
   .order_now{
       position: relative; /* Устанавливаем позиционирование контейнера */
@@ -231,21 +263,39 @@
       margin-top:-96px;
       margin-left: 450px;
   }
+
+  .delivery_text{
+
+  }
+
+  .payment_text{
+
+  }
+
+  .order_text2{
+
+  }
   
+  .sect_pizza{
+
+  }
   
-  
+.text_delicios{
+
+}
+
   .p_text {
       color: #3C3C3C;
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
-  line-height: 32px;
-  position: absolute;
-  text-align: left; /* Центрирование текста по горизонтали */
-  margin-top: 129px;
+  line-height: 32px;  
   text-align: left;
+  margin-top: 120px;
   margin-left: -10px;
+  position: absolute;
+
     }
   
     .p2_text {
@@ -256,26 +306,42 @@
   font-weight: 600;
   line-height: 32px;
   position: absolute;
-  text-align: left; /* Центрирование текста по горизонтали */
-  margin-top: 129px;
-  text-align: left;
-  margin-left: 5px;
+  text-align: center;
+  margin-left: 80px;
+  margin-top: -50px;
+
     }
   
     .p3_text{
-      color: #667085;
-      margin-left: -160px;
-      margin-top:10px;
-      text-align: center;
-      font-family: Inter;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 27px;
+        color: #3C3C3C;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 32px;
+        position: absolute;
+        text-align: right;
+        margin-left: 5px;
+        margin-top: 120px;
+      
       }
+
+      .p4_text{
+        color: #667085;
+        margin-left: -120px;
+        margin-top:10px;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 27px;
+        }
+      
   
   .order_text{
-      margin-top: 180px;
+    color: #667085;
+      margin-top: 170px;
       margin-left: -89px;
       position: absolute;
       text-align: center;
@@ -297,7 +363,7 @@
   }
   
   .h_text{
-      margin-left: 425px;
+      margin-left: 455px;
       margin-top: 400px;
   }
   
@@ -352,6 +418,10 @@
       margin-top: 80px;
       margin-left:435px;
       position: relative;
+  }
+
+  .img_order{
+    width:460px;
   }
   
   .round_button {
@@ -425,6 +495,10 @@
       position: relative;
   }
   
+.img_mobile{
+  width:600px;
+}
+
   .text_mobile{
   margin-left: -600px;
   margin-top:-400px;
@@ -639,3 +713,9 @@
       text-decoration: none;
       color: #FFF;
   }
+
+  .reference_cont{
+    position: relative;
+  }
+
+  

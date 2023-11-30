@@ -1,3 +1,247 @@
 @media(max-width:1280px){
+.menu{
+    margin-left: 360px;
+
+}
+
+main{
+    padding-left: 80px;
+    height: 4400px;
+}
+
+.image_pizza{
+    position: absolute;
+width: 537px;
+margin-top: 100px;
+}
+
+.non_decorate{
+    font-size: 16px;
+}
+
+.btn_delivery{
+    position: absolute;
+margin-top: 80px;
+}
+
+.tag_line_place{
+    margin-top: 120px;
+}
+
+.tag_line{
+    font-size:48px;
+    margin-top: 120px;
+}
+
+.sect_func{
+    margin-top: 120px;
+margin-left: 300px;
+
+
+}
+
+.order_text{
+    font-size: 16px;
+    
+}
+
+.h_text{
+    margin-left:300px;
+}
+
+.p_text{
+    margin-left: 10px; 
+ }
+ 
+.p2_text{
+margin-left: 110px;
+}
+
+.p3_text{
+   margin-left: 28px;
+}
+
+.pizza_choice{
+    margin-left: -110px;
+}
+
+.cont_work{
+    margin-left:-10px;
+}
+
+.text_delicios{
+    position: relative;
+    margin-left: 25px;
+}
+
+.p4_text{
+    margin-top: 20px;
+    margin-left: -90px;
+}
+
+
+.order_cont{
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.order{
+    margin-top: 70px;
+ width: 70px;   
+}
+
+.book_icon{
+    margin-top: 70px;
+    margin-left: 15px;
+    width: 40px;
+}
+
+.order_now{
+    position: relative;
+    margin-left: -250px;
+}
+
+.delivery_cont{
+    align-items: center;
+    display: flex;
+    margin-left: 40px;
+}
+
+.delivery{
+    width: 70px;
+}
+
+.icons{
+    width: 68px;
+}
+
+.delivery_icon{
+    margin-top: 0px;
+    margin-left: 15px;
+    width: 40px;
+}
+
+.delivery_now{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 130px;
+
+}
+
+.payment_icon{
+    align-items: center;
+    display: flex;
+    width:40px;
+    margin-top: 15px;
+    margin-left: 16px;
+}
+
+.payment_cont{
+    position: absolute;
+    margin-left: 35px;
+    margin-top: 0px;
+}
+
+.payment{
+    width: 70px;
+}
+
+.payment_text{
+    margin-top: -105px;
+}
+
+.payment_now{
+    
+    margin-top: 52px;
+   margin-left: 480px;
+}
+
+.vector1{
+    position: absolute;
+    width: 170px;
+    margin-left: -50px;
+    margin-top: 35px;
+}
+
+.vector2{
+    position: absolute;
+    width: 170px;
+    margin-left: 290px;
+    margin-top: -20px;
+}
+
+.sect_pizza{
+    margin-top: 450px;
+    margin-left: 27px;
+}
+
+.navigator{
+    margin-left:300px;
+}
+
+
+.text_order{
+    width: 480px;
+    margin-left: 530px;
+}
+
+.img_order{
+width:400px;
+}
+
+.img_mobile{
+    width: 500px;
+    margin-left: -60px;
+}
+
+.text_mobile{
+    margin-left: -580px;
+}
+
+.reference{
+    margin-left: -80px;
+    width: 1044px;
+}
+
+.link{
+    margin-left: 60px;
+}
+
+.reference_cont{
+    
+    margin-left: -150px;
+}
+
+
+.news{
+    margin-left: 820px;
+}
+
+.call_text{
+    margin-left: 140px;
+}
+
+.email_text{
+    margin-left: -330px;
+}
+
+.icon_email{
+    margin-left: -430px;
+    
+}
+
+.icon_call{
+ margin-left: 40px;   
+}
+
+.line{
+    margin-left: -20px;
+}
+
+.line_hr{
+width: 1031px;
+}
 
 }
