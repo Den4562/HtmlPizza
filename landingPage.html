@@ -288,9 +288,14 @@
                         <li>Subscribe our newsletter to get our latest <br> update & news</li>
                         <li>    
                             <div>
-                                <input class="email_field" type="email" name="email" size="26" required placeholder="Your email address">
-                                <img class="enter" src="./Image/enter.png" alt="">
-                                <img class="send" src="./Image/send.png" alt="">
+                                <form action="">
+                                    <input class="email_field" size="26" required pattern=".{4,}" required type="email" name="email" size="26" required placeholder="Your email address">
+                                    <div class="btn_email">
+                                        <img class="enter" src="./Image/enter.png" alt="">
+                                        <img class="send" src="./Image/send.png" alt="">
+                                       </div>
+                                        
+                                </form>
                             </div> 
                         </li>
     

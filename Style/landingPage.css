@@ -687,7 +687,28 @@
       position: absolute;
       margin-top: 35px;
       margin-left: -40px;
+      cursor: pointer;
       }
+
+  .btn_email{
+    position: absolute;
+    margin-left: 354px;
+    margin-top: -72px;
+    cursor: pointer;
+  }
+
+  .email_field:valid {
+    border: 2px solid green; /* Зеленый бордер для валидного email */
+}
+
+.email_field:invalid {
+    border: 2px solid red; /* Красный бордер для невалидного email */
+}
+
+/* Дополнительные стили для кнопок, чтобы они не нарушали бордер input */
+.btn_email {
+    display: flex;
+}
   
   .line_hr{
       position: absolute;
@@ -718,4 +739,4 @@
     position: relative;
   }
 
-  
+
